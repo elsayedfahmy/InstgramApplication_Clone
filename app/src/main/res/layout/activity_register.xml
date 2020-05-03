@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Ui.RegisterActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:src="@drawable/logo"
+    />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_username"
+        android:hint="User Name"
+        android:background="@drawable/editetext_background"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_fullname"
+        android:hint="Full Name"
+        android:background="@drawable/editetext_background"
+        android:padding="10dp"
+        android:layout_margin="15dp"
+        />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edt_email"
+    android:hint="Email"
+    android:background="@drawable/editetext_background"
+    android:padding="10dp"
+    android:layout_margin="15dp"
+    android:inputType="textEmailAddress"
+    />
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/edt_password"
+    android:hint="PassWord"
+    android:background="@drawable/editetext_background"
+    android:padding="10dp"
+    android:layout_margin="15dp"
+        android:inputType="textPassword"
+    />
+<Button
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/btn_Register"
+    android:text="Register"
+    android:textColor="@color/colorPrimary"
+    android:textSize="30dp"
+    android:background="@drawable/editetext_background"
+    android:padding="10dp"
+    android:layout_margin="15dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Have Account! Log in"
+        android:id="@+id/txtlogin"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_margin="15dp"
+        />
+
+</LinearLayout>
